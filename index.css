@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    height: 100vh;
+    
+    background-image: url("image/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    text-align: center;
+    font-family: arial;
+}
+/* NAVBAR */
+.nav {
+    background-color: #f2b6c1;
+    padding: 15px;
+}
+
+.nav a {
+    margin: 15px;
+    text-decoration: none;
+    color: #e75480;
+    font-weight: bold;
+}
+
+/* RESUME */
+.resume {
+    margin: 20px;
+}
+
+.resume a {
+    color: rgb(212, 8, 90);
+    font-size: 18px;
+}
+
+/* PROFILE IMAGE */
+.profile img {
+    width: 200px;
+    border-radius: 20px;
+    border: 5px solid white;
+    margin-top: 30px;
+}
+
+/* INTRO TEXT */
+.intro h1 {
+    color: #e75480;
+    font-size: 40px;
+}
+
+.intro h2 {
+    color: #e75480;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #333;
+}
+

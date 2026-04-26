@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("image/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    text-align: center;
+    font-family: arial;
+}
+
+/* Section */
+.about {
+    text-align: center;
+    padding: 40px;
+}
+
+.about h1 {
+    color: #ff4d94;
+}
+
+.about p {
+    margin-bottom: 30px;
+}
+
+/* Container for cards */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Card Design */
+.card {
+    background: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Titles */
+.card h2 {
+    color: #ff4d94;
+    margin-bottom: 10px;
+}
+
+/* List */
+.card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card li {
+    margin: 10px 0;
+}
+
+.nav {
+    background-color: #f2b6c1;
+    padding: 15px;
+}
+
+.nav a {
+    margin: 15px;
+    text-decoration: none;
+    color: #e75480;
+    font-weight: bold;
+}

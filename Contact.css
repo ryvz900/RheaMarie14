@@ -1,0 +1,27 @@
+body {
+    font-family: Arial;
+    text-align: center;
+
+    background-image: url("image/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+.nav {
+    background-color: #f2b6c1;
+    padding: 15px;
+}
+
+.nav a {
+    margin: 15px;
+    text-decoration: none;
+    color: #e75480;
+    font-weight: bold;
+}
+
+.content {
+    margin-top: 50px;
+}
